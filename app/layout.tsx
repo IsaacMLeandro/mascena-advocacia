@@ -22,12 +22,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="#atuacao" className="hover:text-blue-700">Áreas</a>
               <a href="#equipe" className="hover:text-blue-700">Equipe</a>
               <a href="#contato" className="hover:text-blue-700">Contato</a>
+              <a href="https://wa.me/5582999997090" target="_blank" className="bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600 transition">WhatsApp</a>
             </nav>
           </div>
         </header>
         {children}
         {/* Footer */}
         <footer className="bg-gray-100 text-center text-sm py-6 mt-16 text-gray-600">
+          <div className="mb-2">
+            <a href="https://wa.me/5582999997090" target="_blank" className="text-green-600 font-semibold hover:underline">
+              Fale conosco via WhatsApp
+            </a>
+          </div>
           © {new Date().getFullYear()} Isaac Mascena & Associados. Todos os direitos reservados.
         </footer>
       </body>
